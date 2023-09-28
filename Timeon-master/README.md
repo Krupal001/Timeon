@@ -1,10 +1,9 @@
 
 # Timeon
-"Timeon" is An Android Digital Wellbeing App
-Timeon Official Documentation:-
-[Timeondoc.pdf](https://github.com/vedantlaheri/Timeon/files/12130802/Timeondoc.pdf)
-Timeon PPT:-
-[Timeon.pptx](https://github.com/vedantlaheri/Timeon/files/12130803/Timeon.pptx)
+1. "TimeOn" is a digital wellbeing app designed to promote healthy screen time habits.
+2. Set personalized usage limits for apps and receive friendly reminders to take breaks.
+3. Monitor daily screen time statistics and gain insights to make informed digital usage decisions.
+4. Foster a balanced lifestyle by encouraging users to prioritize real-world activities over excessive screen time.
 
 
 
