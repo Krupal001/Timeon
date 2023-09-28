@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notifications">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/main"
+        android:gravity="center"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+
+  <!--  <View
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="100dp"
+        android:background="#666" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="110dp"
+        android:background="#666" />-->
+
+
+    <!--    <TextView
+            android:id="@+id/instagram"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="413dp"
+            android:gravity="center_horizontal"
+            android:text="@string/instatimeon"
+            android:textColor="@color/white"
+            android:textSize="25sp" />-->
+
+    <!--    <TextView
+            android:id="@+id/facebook"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="478dp"
+            android:gravity="center"
+            android:text="@string/facebook"
+            android:textColor="@color/white"
+            android:textSize="25sp" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="584dp"
+        android:src="@drawable/instagram" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="582dp"
+        android:src="@drawable/face" />
+
+    <ImageView
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/copy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="59dp"
+        android:gravity="center"
+        android:text="2022 Timeon"
+        android:textColor="#666"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="412dp"
+        android:text="Timeon is an android application that helps self control and time management. The main Purpose of our app is to minimize the distraction caused by the overuse of digital devices like smartphone’s and many more others and help user to focus on important tasks.With this  application you will have more free time so let's save time with us.. "
+        android:textColor="#666"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="-6dp"
+        android:text="Krupal Pandya
+                        Vedant Laheri"
+        android:textColor="#666"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="6dp"
+        android:text="Developed By"
+        android:textColor="#666"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="91dp"
+        android:src="@drawable/timeon1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        app:itemBackground="@color/main"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/menu2" />
+</RelativeLayout>

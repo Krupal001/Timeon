@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Timeon</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="save">SAVE</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="instagram">
+        <a href="https://www.instagram.com/krupal_611/">krupal_pandya</a>
+    </string>
+
+    <string name="mail">
+        <a href="https://mail.google.com/mail/u/2/#inbox?compose=new">timeon@gmail.com</a>
+    </string>
+
+
+    <string name="location">
+        <a href="https://www.bing.com/maps?q=gandhi+baug+mahuva">Gandhi Baug,Mahuva</a>
+    </string>
+
+
+    <string name="instatimeon">
+        <a href="https://www.instagram.com/timeon_vk/">Timeon</a>
+    </string>
+    <string name="facebook">
+        <a href="https://www.facebook.com/Timeon-Digital-Wellbeing-app-107672228530806/">Timeon</a>
+    </string>
+
+         <string name="instagramvedant">
+        <a href="https://www.facebook.com/profile.php?id=100004335317262">Vedant_laheri</a>
+    </string>
+
+</resources>
